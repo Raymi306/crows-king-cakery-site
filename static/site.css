@@ -49,6 +49,12 @@ section {
     outline-style: solid;
     outline-width: 1px;
     outline-color: black;
+    max-width: 100%;
+}
+
+.content > img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .content {
@@ -108,8 +114,8 @@ section {
 }
 
 .img-hr {
-    max-width: 512px;
-    width: 100%;
+    max-width: 512px !important;
+    width: 100% !important;
 }
 
 @media only screen and (min-width: 601px) {
@@ -131,8 +137,10 @@ section {
     .nav-bar li + li {
         margin-top: 0;
     }
+    .card {
+	max-width: 1280px
+    }
     .content > p {
 	margin: 1rem 1.3rem;
-        max-width: 1280px;
     }
 }
