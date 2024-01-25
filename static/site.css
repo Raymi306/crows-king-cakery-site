@@ -7,7 +7,6 @@ body {
     font-family: serif;
     font-size: 1.1rem;
     line-height: 1.7rem;
-    text-transform: uppercase;
 }
 
 ul {
@@ -57,7 +56,7 @@ section {
 }
 
 .content > p {
-    margin: 0 0.1rem;
+    margin: 0.3rem 0.3rem;
 }
 
 .nav-bar {
@@ -66,6 +65,7 @@ section {
     background-color: #0b0b0b;
     color: white;
     padding: 0.3rem;
+    text-transform: uppercase;
 }
 
 .nav-bar ul {
@@ -100,70 +100,6 @@ section {
     color: inherit;
 }
 
-.nav-social-media {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.7rem;
-}
-
-.nav-social-media > a {
-    display: flex;
-    padding: 0.3rem;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.gallery > a {
-    width: 320px;
-    height: 240px;
-    margin: 7px;
-}
-
-.content {
-    text-align: center;
-}
-
-img.full {
-    max-width: 100%;
-    max-height: 1280px;
-}
-
-.panel {
-    overflow: hidden;
-    margin-bottom: 1.3rem;
-    text-align: center;
-}
-
-div.panel-header-group h2, h3, h4, h5, h6 {
-    margin-top: 0.6rem;
-}
-
-.panel-header-group {
-    padding: 0.7rem;
-    margin-bottom: 0.7rem;
-}
-
-.panel-content {
-    padding: 1.3rem;
-}
-
-.panel-header-group a:link {
-    color: inherit;
-}
-
-.panel-header-group a:visited {
-    color: inherit;
-}
-
-.bottom-nav {
-    text-align: center;
-}
-
 .hr-container {
     background-color: magenta;
     position: relative;
@@ -195,11 +131,8 @@ div.panel-header-group h2, h3, h4, h5, h6 {
     .nav-bar li + li {
         margin-top: 0;
     }
-    .nav-social-media {
-        margin: 0;
-    }
     .content > p {
-	margin: 0 1.3rem;
+	margin: 1rem 1.3rem;
         max-width: 1280px;
     }
 }

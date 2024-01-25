@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="online presence of Crow's King Cakery">
+    <meta name="description" content={% block description %}"online presence of Crow's King Cakery"{% endblock %}>
     <link rel="stylesheet" href="/site.css">
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
 </head>
@@ -20,8 +20,10 @@
 	<div class="card">
 		{% include "include/nav.html" %}
 		{% endblock %}
+		<div class="content">
 		{% block content %}
 		{% endblock %}
+		</div>
 		{% set image_crow = resize_image(path="/crow-detail.png", height=400, width=309) %}
 		<div class="footer">
 			<img id="crow-detail" src="{{ image_crow.url }}"/>
