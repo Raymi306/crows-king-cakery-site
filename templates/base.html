@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="online presence of Crow's King Cakery">
+    <link rel="stylesheet" href="/site.css">
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+</head>
+
+<body>
+    <section class="section">
+        {% block header %}
+        <div class="header-top-image">
+		{% set image_logo = resize_image(path="/logo.png", height=400, width=309) %}
+		<img src="{{ image_logo.url }}"/>
+        </div>
+	<img class="img-hr" src="/hr2.png"/>
+	<div class="card">
+		{% include "include/nav.html" %}
+		{% endblock %}
+		{% block content %}
+		{% endblock %}
+		{% set image_crow = resize_image(path="/crow-detail.png", height=400, width=309) %}
+		<div class="footer">
+			<img id="crow-detail" src="{{ image_crow.url }}"/>
+		</div>
+	</div>
+    </section>
+</body>
+</html>
