@@ -5,7 +5,7 @@
     path="wedding-cupcakes-mobile-rotated.jpg",
     alt="Wedding cupcakes variety",
     width=1280,
-    height=200,
+    height=256,
     op="fill"
 ) }}
 
