@@ -36,24 +36,58 @@ All cupcakes are the “regular”, standard cupcake size. (I hope to have other
 
 The options are endless! If you have an idea for a custom order or would like me to work with you to formulate a specialty cupcake to your tastes, please let me know!
 
-**The Gold Standard** - $5/cupcake | $28/ ½ dozen | $56/dozen
+{{
+    cupcake_listing(
+        name="The Gold Standard",
+        price_per_one=5,
+        price_per_half_dozen=28,
+        price_per_dozen=56
+    )
+}}
 
 *Black cocoa cake, whipped espresso ganache filling, dipped in liquid espresso ganache, topped with Bailey’s buttercream frosting, toffee, sprinkles, and gold luster dust*
 
-
-**Butterfinger Blitz** - $5/cupcake | $28/ ½ dozen | $55/dozen
+{{
+    cupcake_listing(
+        name="Butterfinger Blitz",
+        price_per_one=5,
+        price_per_half_dozen=28,
+        price_per_dozen=56
+    )
+}}
 
 *Black cocoa butterfinger cake, dipped in chocolate ganache, topped with peanut butter buttercream frosting, butterfinger pieces, and liquid ganache drizzle*
 
-**Salted Caramel PSL** - $5/cupcake | $28/ ½ dozen | $55/dozen
+{{
+    cupcake_listing(
+        name="Salted Caramel PSL",
+        price_per_one=5,
+        price_per_half_dozen=28,
+        price_per_dozen=56
+    )
+}}
 
 *Pumpkin espresso cake filled with marshmallow fluff, topped with an espresso cold brew buttercream, whipped cream, bourbon caramel drizzle, sprinkles, mini marshmallows, and flake salt*
 
-**Orange Ginger Old Fashioned** - $6/cupcake | $34/ ½ dozen | $67/dozen
+{{
+    cupcake_listing(
+        name="Orange Ginger Old Fashioned",
+        price_per_one=6,
+        price_per_half_dozen=34,
+        price_per_dozen=67
+    )
+}}
 
 *Spiced ginger cake base with an orange marmalade filling, bourbon buttercream, and topped with candied orange peel, Luxardo cherry syrup, and a Luxardo cherry on top*
 
-**Chicken and Waffles** - $7/cupcake | $40/ ½ dozen | $78/dozen
+{{
+    cupcake_listing(
+        name="Chicken and Waffles",
+        price_per_one=7,
+        price_per_half_dozen=40,
+        price_per_dozen=78
+    )
+}}
 
 *Brown sugar butterscotch cake base with maple and vanilla buttercream swirl, topped with mini panko-crusted chicken tender (dredged in buttermilk, coconut flour, panko, fried), stroopwafel, and honey sriracha drizzle*
 

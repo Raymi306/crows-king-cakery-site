@@ -20,7 +20,7 @@
 	<div class="card">
 		{% include "include/nav.html" %}
 		{% endblock %}
-		<div class="content">
+		<div class="content {% block content_class %}{% endblock %}">
 		{% block content %}
 		{% endblock %}
 		</div>

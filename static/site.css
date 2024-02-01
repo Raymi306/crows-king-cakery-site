@@ -61,8 +61,20 @@ section {
     text-align: center;
 }
 
+.page.content > h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+.page.content > p {
+    text-align: left;
+}
+
+.page.content > ul {
+    text-align: center;
+}
+
 .content > p {
-    margin: 0.3rem 0.3rem;
+    margin: 1.0rem 0.3rem;
 }
 
 .nav-bar {
@@ -118,6 +130,14 @@ section {
     width: 100% !important;
 }
 
+.price-gapper {
+    display: initial;
+}
+
+.price-hider {
+    display: none;
+}
+
 @media only screen and (min-width: 601px) {
     .nav-bar {
         justify-content: center;
@@ -142,5 +162,13 @@ section {
     }
     .content > p {
 	margin: 1rem 1.3rem;
+    }
+    .price-gapper {
+	display: none;
+    }
+    .price-hider {
+	display: initial;
+    }
+	display: none;
     }
 }
