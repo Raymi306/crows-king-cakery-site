@@ -101,11 +101,9 @@ The options are endless! If you have an idea for a custom order or would like me
 - Vanilla
 - Caramel
 - Red Velvet
-- Birthday / Confetti
+- Birthday / Funfetti
 - Lemon Blueberry
 - Strawberry
-- Funfetti
-- Vanilla
 - Orange
 - Lemon
 - Peanut Butter
